@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Restaurant Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🍽️ Welcome to Foodie's Delight</h1>
+    </header>
+    <div class="buttons">
+        <button onclick="filterCategory('all')">All</button>
+        <button onclick="filterCategory('starter')">Starters</button>
+        <button onclick="filterCategory('main')">Mains</button>
+        <button onclick="filterCategory('drink')">Drinks</button>
+        <button onclick="filterCategory('dessert')">Desserts</button>
+        <button onclick="showSpecial()">🍲 Today's Special</button>
+    </div>
+    <div id="menu"></div>
+    <script src="script.js"></script>
+</body>
+</html>
